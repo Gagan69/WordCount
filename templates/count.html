@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Count</title>
+</head>
+<body>
+<h1>Counted</h1>
+{{ fulltext }}<br/>
+total words = {{ words }}<br>
+
+repeated words = {{ rep }}
+
+{% for word,value in rep %}
+{{ word }} = {{ value }}
+<br>
+{% endfor %}
+</body>
+</body>
+</html>
